@@ -57,3 +57,46 @@ section .content img {
     display: flex;
     justify-content:center;
 }
+
+/* categories */
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 40px;
+
+
+}
+
+main .categories {
+    width: 90%;
+    margin: 0 auto;
+    /* padding: 40px 40px; */
+    display: flex;
+
+    justify-content: space-between;
+
+}
+main .watch {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right top, #ff9c35, #ffa92e, #ffb527, #ffc31f, #ffd019);
+    padding: 10px 35px;
+    border-radius: 10px;
+    column-gap: 100px;
+}
+main .bag {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to left top, #ff589b, #ff4c91, #ff3e86, #ff2d7b, #ff136f);
+    padding: 10px 35px;
+    border-radius: 10px;
+    column-gap: 100px;
+}
+main .shoes {
+display: flex;
+align-items: center;
+background-image: linear-gradient(to right bottom, #4289ff, #2274ff, #0c5dff, #2240ff, #3f07f8);
+padding: 10px 35px;
+border-radius: 10px;
+column-gap: 100px;
+}
