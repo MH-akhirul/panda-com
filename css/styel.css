@@ -185,3 +185,6 @@ main .see-all {
     text-align: right;
     color: tomato;
 }
+main #bag-1,#bag-2,#bag-3 {
+    height: 520px;
+}
