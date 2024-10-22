@@ -188,3 +188,55 @@ main .see-all {
 main #bag-1,#bag-2,#bag-3 {
     height: 520px;
 }
+
+/* footer-section css */
+footer {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 455px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #FEEAE9;
+    padding: 40px 40px;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 30px;
+}
+footer p {
+    font-size: 16px;
+}
+footer h1 {
+    
+    /* color: #0c5df ; */
+}
+footer form {
+    /* width:70px ; */
+    /* height: 15px; */
+    background-color:#FFFFFF;
+    ;
+}
+footer .footer-bootem label {
+    background-color: #FF136F;
+    color: white;
+    padding: 13px 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    font-size: 26px;
+}
+footer .footer-bootem input {
+    padding: 16px 90px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 26px;
+}
+footer .footer-top {
+    margin-top: 150px;
+}
