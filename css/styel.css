@@ -60,9 +60,9 @@ section .content img {
 
 /* categories */
 main {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding: 40px 40px;
+    /* padding: 40px 40px; */
 
 
 }
@@ -99,4 +99,89 @@ background-image: linear-gradient(to right bottom, #4289ff, #2274ff, #0c5dff, #2
 padding: 10px 35px;
 border-radius: 10px;
 column-gap: 100px;
+}
+
+/* Shoes */
+main .back {
+    background-color: #F4F4F4;
+   
+}
+/* 
+main .shoes-section {
+    display: flex;
+    width: 360px;
+    padding: 24px;
+    /* background-color: #FFFFF
+    border-radius: 20px;
+    gap: 22px;
+    text-align: center;
+    
+} */
+
+main .shoes-section {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.shoes-continer {
+    /* width: 90%; */
+    padding: 40px 40px;
+}
+
+main .shoes-section span {
+    display: block;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+main .shoes-section a {
+    width:168px;
+    background-color: black;
+    padding:14px 40px ;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+
+}
+
+main .dart-img img {
+    width:297px ;
+}
+main .shoes1 {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    column-gap: 22px;
+    width: 360px;
+    height: 450px;
+    padding: 24px 24px;
+    
+
+}
+
+main .shoes2 {
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    row-gap: 20px;
+    column-gap: 22px;
+    width: 360px;
+    height: 450px;
+    padding: 24px 24px;
+    
+}
+
+main .shoes3 {
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    column-gap: 22px;
+    width: 360px;
+    height: 450px;
+    padding: 24px 24px;
+    
+
+}
+main .see-all {
+    text-align: right;
+    color: tomato;
 }
